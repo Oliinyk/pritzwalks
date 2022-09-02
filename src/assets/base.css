@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Europa-Regular';
+  src: url('../assets/fonts/Europa-Regular.woff2') format('woff2'),
+  url('../assets/fonts/Europa-Regular.woff') format('woff'),
+  url('../assets/fonts/Europa-Regular.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Europa-Bold';
+  src: url('../assets/fonts/Europa-Bold.woff2') format('woff2'),
+  url('../assets/fonts/Europa-Bold.woff') format('woff'),
+  url('../assets/fonts/Europa-Bold.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+.link-underline {
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 2px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size .3s ease-in-out;
+}
+.link-underline:hover {
+  background-size: 100% 2px;
+  background-position: 0 100%
+}

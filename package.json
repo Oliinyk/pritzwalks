@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@vuelidate/core": "^2.0.0-alpha.44",
+    "@vuelidate/validators": "^2.0.0-alpha.31",
+    "axios": "^0.27.2",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "sass": "^1.54.4",
+    "tailwindcss": "^3.1.7",
+    "vite": "^3.0.1",
+    "vue-fixed-header": "^3.2.15"
+  }
+}
